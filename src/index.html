@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <form onsubmit="onSubmit()"
+    <form
+		  onsubmit="onSubmit()"
 			autocomplete="off"
 			action="https://mate-academy-form-lesson.herokuapp.com/create-application"
 			method="post"
@@ -47,6 +48,7 @@
         <div class="container">
           <label for="date">Full date of birth:</label>
           <input
+					  name="date"
 					  type="date"
 						id="date"
 					>
@@ -63,12 +65,12 @@
       <fieldset class="block">
         <legend>Registration</legend>
         <div>
-          <label for="em">E-mail:</label>
+          <label for="email">E-mail:</label>
           <input
 					  type="email"
 						name="email"
             placeholder="email@example.com"
-						id="em"
+						id="email"
             required
 					>
         </div>
@@ -114,8 +116,12 @@
 					>
         </div>
         <div class="container">
-          What are your favorite brand of cars?
-          <select name="cars" multiple>
+          <label for="car">What are your favorite brand of cars?</label>
+          <select
+					  name="cars"
+						id="car"
+						multiple
+					>
             <option value="BMW">BMW</option>
             <option value="Audi">Audi</option>
             <option value="Lada">Lada</option>
