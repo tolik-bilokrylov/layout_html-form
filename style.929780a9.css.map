@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.css"],"names":[],"mappings":"AACA,WACE,eACF,CAMA,eACE,eACF","file":"style.929780a9.css","sourceRoot":"..\\src","sourcesContent":["/* styles go here */\n.container {\n  margin-top: 10px;\n}\n\n.block {\n  margin-top: 20px;\n}\n\n.button {\n  margin-top: 20px;\n}\n"]}
